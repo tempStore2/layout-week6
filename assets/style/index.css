@@ -1,0 +1,13 @@
+.bg-banner {
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week6/index-1.jpg");
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=index.css.map */
