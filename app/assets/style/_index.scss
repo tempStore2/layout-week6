@@ -66,6 +66,7 @@ sup {
       height: 160px;
       @include media-breakpoint-up(lg) {
         width: 350px;
+        object-fit: cover;
       }
     }
   }
@@ -125,18 +126,19 @@ sup {
   }
 }
 .tatami-cup {
-  width: 360px;
-  height: 360px;
+  min-height: 360px;
   @include media-breakpoint-up(lg) {
     width: 730px;
     height: 440px;
   }
 }
 .cart {
-  z-index: 1;
+  margin-top: -40px;
   @include media-breakpoint-up(lg) {
     position: absolute;
     right: 0;
+    margin-top: 0;
+    width: 50% !important;
   }
 }
 .font-raleway {
