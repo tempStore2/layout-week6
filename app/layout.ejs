@@ -29,13 +29,13 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="material-icons text-white">
+          <span class="material-icons text-white page-dark">
             dehaze
           </span>
         </button>
         <h1>
           <a
-            class="navbar-brand font-raleway text-white text-lg-dark py-0"
+            class="navbar-brand font-raleway text-white text-lg-dark page-dark py-0"
             href="index.html"
             >Craftsman</a
           >
@@ -47,27 +47,39 @@
         >
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link text-white py-0" href="product.html"
+              <a
+                class="nav-link text-white page-product font-weight-600 py-0"
+                href="product.html"
                 >Product</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white pl-7 py-0" href="#">Blog</a>
+              <a
+                class="nav-link text-white page-dark font-weight-600 pl-7 py-0"
+                href="#"
+                >Blog</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white pl-7 py-0" href="#">Contact</a>
+              <a
+                class="nav-link text-white page-dark font-weight-600 pl-7 py-0"
+                href="#"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
-        <span class="material-icons text-white pl-7">
-          shopping_cart
-        </span>
+        <a href="#">
+          <span class="material-icons text-white page-dark pl-7">
+            shopping_cart
+          </span>
+        </a>
       </nav>
     </header>
     <%- contents %>
 
     <footer class="footer">
-      <section class="bg-footer">
+      <section class="footer-img bg-cover">
         <div
           class="container d-flex flex-column justify-content-lg-center justify-content-between h-100 py-4"
         >

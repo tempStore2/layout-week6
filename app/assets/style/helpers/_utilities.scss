@@ -1,0 +1,50 @@
+.list-none {
+  list-style-type: none;
+}
+.text-decoration-through {
+  text-decoration: line-through;
+}
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+.page-hover {
+  color: $dark;
+  &:hover {
+    color: $success;
+  }
+}
+@media (min-width: 992px) {
+  .text-lg-dark {
+    color: $dark !important;
+  }
+  .text-lg-primary {
+    color: $primary !important;
+  }
+  .w-lg-0 {
+    width: auto !important;
+  }
+  .bottom-lg-0 {
+    bottom: 0;
+  }
+  .h-lg-auto {
+    height: auto;
+  }
+  .vh-lg-100 {
+    height: 100vh !important;
+  }
+}
+@each $name, $value in $spacers {
+  @media (min-width: map-get($grid-breakpoints,lg)) {
+    .font-lg-#{$name} {
+      font-size: $value;
+    }
+  }
+}
