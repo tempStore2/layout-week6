@@ -75,6 +75,7 @@ $danger: $red !default;
 $light: #ffffffde !default;
 $dark: #121212 !default;
 $background: #f2f2f2;
+$line: #00000060;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -89,6 +90,7 @@ $theme-colors: map-merge(
     "light": $light,
     "dark": $dark,
     "background": $background,
+    "line": $line,
   ),
   $theme-colors
 );

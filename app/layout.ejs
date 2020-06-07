@@ -16,10 +16,88 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
     <link rel="stylesheet" href="./assets/style/all.css" />
   </head>
-
   <body>
-    <header class="container">
-      <nav class="navbar navbar-expand-lg navbar-light pt-4 px-0">
+    <header>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between w-100">
+            <button
+              class="navbar-toggler border-0 p-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="material-icons navbar-toggler p-3">
+                arrow_back
+              </span>
+            </button>
+
+            <span class="material-icons p-3">
+              shopping_cart
+            </span>
+          </div>
+          <ul class="list-none pl-3">
+            <li class="pb-3 mb-3 border-bottom border-info">
+              <a
+                href="#collapseExample"
+                class="d-flex justify-content-between text-dark font-weight-600 text-decoration-none product"
+                data-toggle="collapse"
+                data-target="#collapseExample"
+                >Product
+                <span class="material-icons down">
+                  expand_less
+                </span>
+                <span class="material-icons up d-none">
+                  expand_more
+                </span>
+              </a>
+            </li>
+            <li class="collapse" id="collapseExample">
+              <ul class="list-none pl-0 text-primary font-weight-600">
+                <li class="mb-3">
+                  <a href="product.html" class="text-decoration-none"
+                    >All<sup class="ml-1">24</sup></a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#" class="text-decoration-none"
+                    >Bowl<sup class="ml-1">10</sup></a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#" class="text-decoration-none"
+                    >Cup<sup class="ml-1">8</sup></a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#" class="text-decoration-none"
+                    >Plate<sup class="ml-1">3</sup></a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#" class="text-decoration-none"
+                    >Vase<sup class="ml-1">3</sup></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="pb-3 mb-3 border-bottom border-info">
+              <a href="#" class="text-dark font-weight-600 text-decoration-none"
+                >Blog</a
+              >
+            </li>
+            <li class="pb-3 mb-3 border-bottom border-info">
+              <a href="#" class="text-dark font-weight-600 text-decoration-none"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="container navbar navbar-expand-lg navbar-light pt-4 px-0">
         <button
           class="navbar-toggler border-0"
           type="button"
@@ -40,12 +118,8 @@
             >Craftsman</a
           >
         </h1>
-
-        <div
-          class="collapse navbar-collapse flex-grow-0 ml-auto"
-          id="navbarTogglerDemo03"
-        >
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="d-lg-block d-none ml-auto">
+          <ul class="navbar-nav">
             <li class="nav-item active">
               <a
                 class="nav-link text-white page-product font-weight-600 py-0"

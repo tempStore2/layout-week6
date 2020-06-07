@@ -33,3 +33,15 @@
     height: 440px;
   }
 }
+.modal-img {
+  height: 96px;
+  width: 96px;
+  @include media-breakpoint-up(lg) {
+    width: 112px;
+    height: 112px;
+  }
+}
+.information-img {
+  width: 48px;
+  height: 48px;
+}
