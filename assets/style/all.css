@@ -12449,6 +12449,15 @@ h1 {
   z-index: -1;
 }
 
+.successful-img {
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week6/done.jpg");
+  position: absolute;
+  height: 640px;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
 .director-img {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week6/index-5.jpg");
   height: 400px;
