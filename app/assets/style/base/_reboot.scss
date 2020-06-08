@@ -10,3 +10,6 @@ sup {
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">";
 }
+select {
+  height: 50px !important;
+}

@@ -26,6 +26,9 @@
     display: block !important;
   }
 }
+.top-0 {
+  top: 0;
+}
 .page-hover {
   color: $dark;
   &:hover {
@@ -53,6 +56,9 @@
   }
   .w-lg-70 {
     width: 70% !important;
+  }
+  .w-lg-50 {
+    width: 50% !important;
   }
 }
 @each $name, $value in $spacers {

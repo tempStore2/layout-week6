@@ -75,7 +75,7 @@ $danger: $red !default;
 $light: #ffffffde !default;
 $dark: #121212 !default;
 $background: #f2f2f2;
-$line: #00000060;
+$line: $gray-400;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -498,7 +498,7 @@ $input-focus-color: $input-color !default;
 $input-focus-width: $input-btn-focus-width !default;
 $input-focus-box-shadow: $input-btn-focus-box-shadow !default;
 
-$input-placeholder-color: $secondary !default;
+$input-placeholder-color: $gray-600 !default;
 $input-plaintext-color: $body-color !default;
 
 $input-height-border: $input-border-width * 2 !default;
