@@ -4,10 +4,6 @@
 .text-decoration-through {
   text-decoration: line-through;
 }
-.font-raleway {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-}
 .font-weight-600 {
   font-weight: 600;
 }
@@ -29,11 +25,23 @@
 .top-0 {
   top: 0;
 }
+.top-rem {
+  top: $spacer;
+}
+.right-rem {
+  right: $spacer;
+}
+.left-rem {
+  left: $spacer;
+}
 .page-hover {
   color: $dark;
   &:hover {
     color: $success;
   }
+}
+.font-family {
+  font-family: "Raleway", sans-serif;
 }
 @media (min-width: 992px) {
   .text-lg-dark {

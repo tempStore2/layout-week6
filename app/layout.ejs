@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title><%- title %></title>
     <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -34,7 +34,6 @@
                 arrow_back
               </span>
             </button>
-
             <span class="material-icons p-3">
               shopping_cart
             </span>
@@ -143,8 +142,13 @@
             </li>
           </ul>
         </div>
-        <a href="#">
-          <span class="material-icons text-white page-dark pl-7">
+        <a
+          href="#"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          class="mr-3"
+        >
+          <span class="material-icons text-white page-dark pl-lg-7">
             shopping_cart
           </span>
         </a>
@@ -182,15 +186,18 @@
         </div>
       </section>
       <section class="bg-dark">
-        <div class="container d-lg-flex py-lg-5">
-          <h4 class="text-white h4 mb-0 mr-3 order-lg-1 pt-4 pt-lg-0">
+        <div class="container d-lg-flex py-lg-5 pt-4 pt-lg-0">
+          <a
+            href="index.html"
+            class="h4 text-white font-family text-decoration-none h4 mb-0 mr-3 order-lg-1"
+          >
             CRAFTsMAN
-          </h4>
+          </a>
           <ul
             class="list-none d-lg-flex align-items-lg-center order-lg-3 p-0 my-7 my-lg-0"
           >
-            <li class="text-light mr-7">Purchase Policy</li>
-            <li class="text-light mr-7">Privacy Policy</li>
+            <li class="text-light mr-7 mb-3 mb-lg-0">Purchase Policy</li>
+            <li class="text-light mr-7 mb-3 mb-lg-0">Privacy Policy</li>
             <li class="text-light">Terms & Conditions</li>
           </ul>
           <p class="text-secondary mr-auto order-lg-2 pb-4 pb-lg-0 mb-0">

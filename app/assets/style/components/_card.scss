@@ -5,7 +5,7 @@
   }
   .card {
     display: inline-block;
-    width: 100%;
+    max-width: 350px;
     @include media-breakpoint-up(lg) {
       &:nth-child(1) img {
         height: 350px;
@@ -36,11 +36,10 @@
       }
     }
     img {
-      width: 160px;
       height: 160px;
+      object-fit: cover;
       @include media-breakpoint-up(lg) {
         width: 350px;
-        object-fit: cover;
       }
     }
   }
