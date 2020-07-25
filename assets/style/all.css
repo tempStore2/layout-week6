@@ -12429,6 +12429,8 @@ h1 {
 }
 
 .swiper-img {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 240px;
   height: 240px;
 }
